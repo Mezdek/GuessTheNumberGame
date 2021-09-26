@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(207, 99, 56);
+}
+#guessInterface {
+    display: none;
+}
+#declareInterface {
+    display: none;
+}

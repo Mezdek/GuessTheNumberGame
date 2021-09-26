@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+</head>
+<body>
+    <div id="nameInterface">
+        <label for="playerName" id="playerNameLabel">Enter your name!</label><br>
+        <input type="text" name="playerName" id="playerName"><br>
+        <button id="playerNameSave">save</button>
+    </div>
+    <div id="guessInterface">
+        <label for="playerGuess" id="playerGuessLabel">guess my number! Hint: it is between 1 and 100.</label><br>
+        <input type="text" name="playerGuess" id="playerGuess"><br>
+        <button id="submitGuess">submit</button>
+    </div>
+    <div id="declareInterface">
+        <span id="declaration"></span><br>
+        <button id="tryAgain">Try again!</button>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
