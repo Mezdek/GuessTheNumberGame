@@ -1,8 +1,10 @@
 body{
     background-color: rgb(121, 109, 7);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* font-size: small; */
     color: whitesmoke;
+}
+h1 {
+    text-align: center;
 }
 div {
     position: relative;
@@ -13,9 +15,6 @@ div {
     margin: auto;
     background-color: rgb(20, 59, 38);
 }
-/* #nameInterface {
-    
-} */
 #guessInterface {
     display: none;
 }
@@ -31,11 +30,9 @@ height: 20%;
 border: 2px ridge rgb(19, 53, 61);
 border-radius: 5%;
 background-color: rgb(40, 24, 136);
-/* font-size: 18px; */
 color: whitesmoke;
 }
 input {
-    /* margin: auto; */
     display: inline-block;
     position:absolute;
     top :47%;
