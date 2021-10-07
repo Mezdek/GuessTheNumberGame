@@ -1,43 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 body{
-    background-color: rgb(121, 109, 7);
+    background-color: rgb(15, 60, 45);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: whitesmoke;
 }
 h1 {
     text-align: center;
+    margin: 5px 5px 15px 5px;
 }
-div {
+#game{
+    display: flex;
     position: relative;
-    border: 4px solid black;
-    width: 70%;
-    height: 160px;
-    text-align: center;
+    width: 90vw;
+    max-width: 500px;
+    height: 90vh;
+    max-height: 500px;
+    border: solid;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
     margin: auto;
-    background-color: rgb(20, 59, 38);
+    padding: 10px;
 }
-#guessInterface {
+
+#screen{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    padding: 8px;
+    margin: 8px;
+}
+input, button{
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8%;
     display: none;
-}
-#declareInterface {
-    display: none;
-}
-button {
-position: absolute;
-bottom: 0;
-right: 30%;
-width: 40%;
-height: 20%;
-border: 2px ridge rgb(19, 53, 61);
-border-radius: 5%;
-background-color: rgb(40, 24, 136);
-color: whitesmoke;
-}
-input {
-    display: inline-block;
-    position:absolute;
-    top :47%;
-    right: 25%;
-    margin: auto;
-    height: 15%;
-    width: 50%;
 }

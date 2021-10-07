@@ -9,20 +9,16 @@
 </head>
 <body>
     <h1>Guessing Game</h1>
-    <div id="nameInterface">
-        <label for="playersName" id="playersNameLabel">How may I call you?</label><br>
-        <input type="text" name="playersName" id="playersName" placeholder="Enter your name"><br>
-        <button id="gameStart">Start</button>
+    <div id="game">
+        <input type="text" id="player_name" placeholder="Enter your name">
+        <button id="start_game">Start</button>
+        <input type="text" id="player_guess">
+        <button id="check_value">Check</button>
+        <button id="ok">Okay</button>
+        <div id="screen">
+            <p id="message"></p>
+        </div>
     </div>
-    <div id="guessInterface">
-        <label for="playersGuess" id="playersGuessLabel"></label><br>
-        <input type="text" name="playersGuess" id="playersGuess"><br>
-        <button id="check">Check</button>
-    </div>
-    <div id="declareInterface">
-        <span id="declaration"></span><br>
-        <button id="tryAgain">Try again!</button>
-    </div>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="game.js"></script>
 </body>
 </html>
